@@ -1,0 +1,14 @@
+{
+  "name": "Clone of CTF Hacker's Room",
+  "description": "Kali personalizado con herramientas CTF y scripts de configuración",
+  "docker_image": "oscrodbue/kasm_custom_kali:1.17.0",
+  "enabled": true,
+  "categories": ["CTF", "Seguridad", "Kali Linux"],
+  "launch_config": {
+    "resources": {
+      "cpu": 2,
+      "memory": 2768,
+      "gpu": 0
+    }
+  }
+}
